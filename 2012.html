@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>2012世界末日</title>
+</head>
+<body>
+<div id="out"></div>
+<script type="text/javascript" src="./2012.js"></script>
+<<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+	function go(){
+      var d1,d2,d3,s= '';    
+      d1 = new Date();
+      d2 = document.getElementByIdx_x_x("t1").value*1;
+    
+      d3 = new Date(d1.getFullYear(),d1.getMonth(),d1.getDate(),d1.getHours(),d1.getMinutes()+d2);
+      s += d3.getFullYear()+'-';
+      s += (d3.getMonth()+1)+'-';
+      s += d3.getDate()+' ';
+      s += d3.getHours()+':';
+      s += (d3.getMinutes() < 10 ? '0'+d3.getMinutes() : d3.getMinutes());
+      s += ':00';
+      alert(s);
+}
+</script>
+</body>
+</html>
