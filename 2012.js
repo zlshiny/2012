@@ -21,7 +21,7 @@ void function(window, undefined){
 	var body = doc.body;
 	var out = doc.getElementById("out");
 	var swapDoms = [];
-	
+
 	
 	var max = Math.max;
 	var min = Math.min;
@@ -30,6 +30,8 @@ void function(window, undefined){
 	var abs = Math.abs;
 	var round = Math.round;
 
+
+	
 	var ua = navigator.userAgent;
 	var ie = /msie/i.test(ua) && !document.addEventListener;
 	var ie6 = /msie 6/i.test(ua);
