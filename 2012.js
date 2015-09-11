@@ -5,7 +5,6 @@
  */
 
 void function(window, undefined){
-
 	var baseURL = "http://s1.bdstatic.com/r/www/cache/2012cp/images/";
 	// var baseURL = "images/";
 
