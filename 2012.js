@@ -21,8 +21,6 @@ void function(window, undefined){
 	var body = doc.body;
 	var out = doc.getElementById("out");
 	var swapDoms = [];
-
-
 	
 	
 	var max = Math.max;
